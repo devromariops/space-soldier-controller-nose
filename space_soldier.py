@@ -62,7 +62,7 @@ class Game:
         self.font_title = pygame.font.Font(utils.ABSOLUT_PATH + "assets/fonts/Alien-Eclipse.ttf", 90)
         self.font_score_on_pause = pygame.font.Font(utils.ABSOLUT_PATH +"assets/fonts/Alien-Eclipse.ttf", 40)
         self.font_score = pygame.font.Font(utils.ABSOLUT_PATH +"assets/fonts/Alien-Eclipse.ttf", 24)
-        self.info_autor_font = pygame.font.Font(utils.ABSOLUT_PATH +"assets/fonts/Alien-Eclipse.ttf", 18)
+        self.info_autor_font = pygame.font.Font(utils.ABSOLUT_PATH +"assets/fonts/Alien-Eclipse.ttf", 12)
         self.draw_title_first_time = True
         self.player_x = 0
         self.player_y = 0
@@ -77,11 +77,11 @@ class Game:
         
         autor_info_text = "By romariops"
         autor_info_text_surface = self.info_autor_font.render(autor_info_text, True, (255, 165, 0))
-        SCREEN_SURFACE.blit(autor_info_text_surface, (20, 20))
+        SCREEN_SURFACE.blit(autor_info_text_surface, (5, 20))
 
-        autor_info_text = "github.com/romariops/space-soldier"
+        autor_info_text = "github.com/romariops/space-soldier-controller-nose"
         autor_info_text_surface = self.info_autor_font.render(autor_info_text, True, (255, 165, 0))
-        SCREEN_SURFACE.blit(autor_info_text_surface, (20, 45))
+        SCREEN_SURFACE.blit(autor_info_text_surface, (5, 45))
 
         title_surface = self.font_title.render(self.title_part_a, True, (255, 69, 0))
         SCREEN_SURFACE.blit(title_surface, (65, 100))
