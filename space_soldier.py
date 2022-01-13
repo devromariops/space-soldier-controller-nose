@@ -59,10 +59,10 @@ class Game:
         self.start = False
         self.title_part_a = "Space"
         self.title_part_b = "Soldier"
-        self.font_title = pygame.font.Font(utils.ABSOLUT_PATH + "assets/fonts/Alien-Eclipse.ttf", 90)
-        self.font_score_on_pause = pygame.font.Font(utils.ABSOLUT_PATH +"assets/fonts/Alien-Eclipse.ttf", 40)
-        self.font_score = pygame.font.Font(utils.ABSOLUT_PATH +"assets/fonts/Alien-Eclipse.ttf", 24)
-        self.info_autor_font = pygame.font.Font(utils.ABSOLUT_PATH +"assets/fonts/Alien-Eclipse.ttf", 12)
+        self.font_title = pygame.font.Font("assets/fonts/Alien-Eclipse.ttf", 90)
+        self.font_score_on_pause = pygame.font.Font("assets/fonts/Alien-Eclipse.ttf", 40)
+        self.font_score = pygame.font.Font("assets/fonts/Alien-Eclipse.ttf", 24)
+        self.info_autor_font = pygame.font.Font("assets/fonts/Alien-Eclipse.ttf", 12)
         self.draw_title_first_time = True
         self.player_x = 0
         self.player_y = 0

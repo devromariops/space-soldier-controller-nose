@@ -62,7 +62,7 @@ class EnemiesManager:
         self.explosion_group.update(screen_surface)
 
         if enemy_defeated:
-            defeated = pygame.mixer.Sound(utils.ABSOLUT_PATH + "assets/sounds/enemy_death.mp3")
+            defeated = pygame.mixer.Sound("assets/sounds/enemy_death.mp3")
             defeated.play()
             return 1
         return 0

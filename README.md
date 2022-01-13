@@ -1,2 +1,6 @@
 # space-soldier-controller-nose
-An adaptation of the SPACE SOLDIER game that can be controlled with movements of the face, having the tip of the nose as a pivot.
+ Uma adaptação do jogo SPACE SOLDIER que pode ser controlado com movimentos do rosto, tendo a ponta do nariz como pivô.
+
+ Dependências:
+
+ pip install -r requirements.txt.
